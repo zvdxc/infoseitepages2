@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>https://zvdxcinfo.github.io/blog/</link>
+    <description>Blog</description>
+    <copyright>🄯 Copyleft 2026. Keine Rechte vorbehalten</copyright>
+    <lastBuildDate>Sun, 04 Jan 2026 18:46:08 GMT</lastBuildDate>
+    <generator>https://retype.com</generator>
+    <atom:link rel="self" type="application/rss+xml" href="https://zvdxcinfo.github.io/blog/feed.xml" />
+    <item>
+      <title>Blogeintrag</title>
+      <guid isPermaLink="true">https://zvdxcinfo.github.io/blog/webseite/</guid>
+      <description>Diese Seite wurde vom Retype-Framework generiert. Der Inhalt ist von uns, der Code nicht.</description>
+      <pubDate>Sun, 04 Jan 2026 18:46:08 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
