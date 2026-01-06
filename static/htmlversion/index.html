@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Blogeintrag Informatik</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+ul {
+  display: table;
+  margin: 0 auto;
+}
+div {text-align: center;
+font-family: "Google Sans Code"}
+
+li {text-align: left;}
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #FF0000; z-index:9999;}
+
+  
+</style>
+
+
+
+
+
+
+<script>$(function() { alert('Dies ist die HTML-Version der Seite. Die Markdown-Version ist ganz unten verlinkt') })</script>
+
+
+    </head>
+    <body>
+
+
+
+
+
+    <!-- https://stackoverflow.com/questions/23731357/how-do-i-make-text-inside-the-title-tag-animate-using-javascript -->
+
+<script language=javascript>
+    var rev = "fwd";
+    function titlebar(val){
+        var msg  = "Blogeintrag Informatik";
+        var res = "";
+        var speed = 100;
+        var pos = val;
+        msg = "   |-"+msg+"-|";
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+        else {
+            if(pos > 0) {
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+    }
+    titlebar(0);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="cover"></div>
+        <div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+<hr>
+<h2>Blogeintrag</h2>
+
+
+
+<script>
+// Source - https://stackoverflow.com/a
+// Posted by adeneo, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-06, License - CC BY-SA 3.0
+
+$(document).ready(function() {
+   $("#cover").hide();
+   
+});
+
+</script>
+
+
+<hr>
+<h2>Haupttext</h2>
+<p>Immer mehr Kinder und Jugendliche spielen Videospiele, wodurch viele Eltern die Angst haben dass ihre Kinder aggressives Verhalten, Konzentrationsprobleme oder Sprachprobleme bilden. </p>
+<p>Daher haben wir eine Umfrage erstellt um herauszufinden welche Auswirkungen die Spiele auf die Psyche haben.</p>
+<p>Die Hypothesen:</p>
+<details>
+<summary>Gaming macht Jugendliche aggressiver</summary>
+<br>
+
+<img src="data:image/svg+xml;base64,PHN2ZyBpZD0ibWVybWFpZC1kaWFncmFtLTE3Njc3MDExOTczMjEiIHdpZHRoPSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODgwIDQ1MCIgc3R5bGU9Im1heC13aWR0aDogMTg4MHB4OyIgcm9sZT0iZ3JhcGhpY3MtZG9jdW1lbnQgZG9jdW1lbnQiIGFyaWEtcm9sZWRlc2NyaXB0aW9uPSJwaWUiPjxzdHlsZT4jbWVybWFpZC1kaWFncmFtLTE3Njc3MDExOTczMjF7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lcnJvci1pY29ue2ZpbGw6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lcnJvci10ZXh0e2ZpbGw6IzU1MjIyMjtzdHJva2U6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lZGdlLXRoaWNrbmVzcy10aGlja3tzdHJva2Utd2lkdGg6My41cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTE5NzMyMSAuZWRnZS1wYXR0ZXJuLXNvbGlke3N0cm9rZS1kYXNoYXJyYXk6MDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5lZGdlLXBhdHRlcm4tZG90dGVke3N0cm9rZS1kYXNoYXJyYXk6Mjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5tYXJrZXJ7ZmlsbDojMzMzMzMzO3N0cm9rZTojMzMzMzMzO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDExOTczMjEgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIHN2Z3tmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE2cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTE5NzMyMSAucGllQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O29wYWNpdHk6MC43O30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDExOTczMjEgLnBpZU91dGVyQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O2ZpbGw6bm9uZTt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxMTk3MzIxIC5waWVUaXRsZVRleHR7dGV4dC1hbmNob3I6bWlkZGxlO2ZvbnQtc2l6ZToyNXB4O2ZpbGw6YmxhY2s7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDExOTczMjEgLnNsaWNle2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmaWxsOiMzMzM7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTE5NzMyMSAubGVnZW5kIHRleHR7ZmlsbDpibGFjaztmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTE5NzMyMSA6cm9vdHstLW1lcm1haWQtZm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO308L3N0eWxlPjxzdHlsZSBjbGFzcz0iZGFya3JlYWRlciBkYXJrcmVhZGVyLS1zeW5jIiBtZWRpYT0ic2NyZWVuIj48L3N0eWxlPjxnPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NDAsMjI1KSI+PGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjE4NiIgY2xhc3M9InBpZU91dGVyQ2lyY2xlIj48L2NpcmNsZT48cGF0aCBkPSJNMCwtMTg1QTE4NSwxODUsMCwxLDEsLTU5LjYzNywxNzUuMTI0TDAsMFoiIGZpbGw9IiNFQ0VDRkYiIGNsYXNzPSJwaWVDaXJjbGUiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC1lY2VjZmYsICMxZDIwMjEpOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjwvcGF0aD48cGF0aCBkPSJNLTU5LjYzNywxNzUuMTI0QTE4NSwxODUsMCwwLDEsLTk4LjY4OCwtMTU2LjQ3OUwwLDBaIiBmaWxsPSIjZmZmZmRlIiBjbGFzcz0icGllQ2lyY2xlIiBzdHlsZT0iLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiB2YXIoLS1kYXJrcmVhZGVyLWJhY2tncm91bmQtZmZmZmRlLCAjMzUzNTAwKTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIj48L3BhdGg+PHBhdGggZD0iTS05OC42ODgsLTE1Ni40NzlBMTg1LDE4NSwwLDAsMSwwLC0xODVMMCwwWiIgZmlsbD0iaHNsKDgwLCAxMDAlLCA1Ni4yNzQ1MDk4MDM5JSkiIGNsYXNzPSJwaWVDaXJjbGUiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC1iNWZmMjAsICM2ODhiMDApOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjwvcGF0aD48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzYuODg1NzA2NTg4MjU4MzMsMjIuNjY4NjA4OTUyMzIxMDYpIiBzdHlsZT0idGV4dC1hbmNob3I6IG1pZGRsZTsiIGNsYXNzPSJzbGljZSI+NTUlPC90ZXh0Pjx0ZXh0IHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzcuNzk3NzgzMzMxMzA0MzcsMTYuMjI3NTUwOTIzNjI2NDcpIiBzdHlsZT0idGV4dC1hbmNob3I6IG1pZGRsZTsiIGNsYXNzPSJzbGljZSI+MzYlPC90ZXh0Pjx0ZXh0IHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zOC41MjI1NTAxOTI1MTU3MSwtMTMzLjI5NTA2OTc3NjI4NjU3KSIgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IiBjbGFzcz0ic2xpY2UiPjklPC90ZXh0Pjx0ZXh0IHg9IjAiIHk9Ii0yMDAiIGNsYXNzPSJwaWVUaXRsZVRleHQiPkdhbWluZyBtYWNodCBKdWdlbmRsaWNoZXIgYWdncmVzc2l2ZXI8L3RleHQ+PGcgY2xhc3M9ImxlZ2VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjE2LC0zMykiPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgc3R5bGU9ImZpbGw6IHJnYigyMzYsIDIzNiwgMjU1KTsgc3Ryb2tlOiByZ2IoMjM2LCAyMzYsIDI1NSk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDogdmFyKC0tZGFya3JlYWRlci10ZXh0LWVjZWNmZiwgI2JmZDZmZik7IC0tZGFya3JlYWRlci1pbmxpbmUtc3Ryb2tlOiB2YXIoLS1kYXJrcmVhZGVyLXRleHQtZWNlY2ZmLCAjYmZkNmZmKTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLXN0cm9rZT0iIj48L3JlY3Q+PHRleHQgeD0iMjIiIHk9IjE0Ij5OZWluPC90ZXh0PjwvZz48ZyBjbGFzcz0ibGVnZW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTYsLTExKSI+PHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyMjIpOyBzdHJva2U6IHJnYigyNTUsIDI1NSwgMjIyKTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiB2YXIoLS1kYXJrcmVhZGVyLXRleHQtZmZmZmRlLCAjZmZmZmI1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1zdHJva2U6IHZhcigtLWRhcmtyZWFkZXItdGV4dC1mZmZmZGUsICNmZmZmYjUpOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtc3Ryb2tlPSIiPjwvcmVjdD48dGV4dCB4PSIyMiIgeT0iMTQiPkphPC90ZXh0PjwvZz48ZyBjbGFzcz0ibGVnZW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTYsMTEpIj48cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHN0eWxlPSJmaWxsOiByZ2IoMTgxLCAyNTUsIDMyKTsgc3Ryb2tlOiByZ2IoMTgxLCAyNTUsIDMyKTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiB2YXIoLS1kYXJrcmVhZGVyLXRleHQtYjVmZjIwLCAjYmFmZjMwKTsgLS1kYXJrcmVhZGVyLWlubGluZS1zdHJva2U6IHZhcigtLWRhcmtyZWFkZXItdGV4dC1iNWZmMjAsICNiYWZmMzApOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtc3Ryb2tlPSIiPjwvcmVjdD48dGV4dCB4PSIyMiIgeT0iMTQiPktlaW5lIEFudHdvcnQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=">
+
+
+
+</details>
+
+
+<details>
+<summary>Die meisten Gamer spielen mit Freunden</summary>
+<br>
+
+
+<img src="data:image/svg+xml;base64,PHN2ZyBpZD0ibWVybWFpZC1kaWFncmFtLTE3Njc3MDk4MjY2NTkiIHdpZHRoPSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODgwIDQ1MCIgc3R5bGU9Im1heC13aWR0aDogMTg4MHB4OyIgcm9sZT0iZ3JhcGhpY3MtZG9jdW1lbnQgZG9jdW1lbnQiIGFyaWEtcm9sZWRlc2NyaXB0aW9uPSJwaWUiPjxzdHlsZT4jbWVybWFpZC1kaWFncmFtLTE3Njc3MDk4MjY2NTl7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lcnJvci1pY29ue2ZpbGw6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lcnJvci10ZXh0e2ZpbGw6IzU1MjIyMjtzdHJva2U6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lZGdlLXRoaWNrbmVzcy10aGlja3tzdHJva2Utd2lkdGg6My41cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwOTgyNjY1OSAuZWRnZS1wYXR0ZXJuLXNvbGlke3N0cm9rZS1kYXNoYXJyYXk6MDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5lZGdlLXBhdHRlcm4tZG90dGVke3N0cm9rZS1kYXNoYXJyYXk6Mjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5tYXJrZXJ7ZmlsbDojMzMzMzMzO3N0cm9rZTojMzMzMzMzO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDk4MjY2NTkgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IHN2Z3tmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE2cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwOTgyNjY1OSAucGllQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O29wYWNpdHk6MC43O30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDk4MjY2NTkgLnBpZU91dGVyQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O2ZpbGw6bm9uZTt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzA5ODI2NjU5IC5waWVUaXRsZVRleHR7dGV4dC1hbmNob3I6bWlkZGxlO2ZvbnQtc2l6ZToyNXB4O2ZpbGw6YmxhY2s7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDk4MjY2NTkgLnNsaWNle2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmaWxsOiMzMzM7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwOTgyNjY1OSAubGVnZW5kIHRleHR7ZmlsbDpibGFjaztmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwOTgyNjY1OSA6cm9vdHstLW1lcm1haWQtZm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO308L3N0eWxlPjxnPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NDAsMjI1KSI+PGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjE4NiIgY2xhc3M9InBpZU91dGVyQ2lyY2xlIj48L2NpcmNsZT48cGF0aCBkPSJNMCwtMTg1QTE4NSwxODUsMCwxLDEsLTE2Ni45NDcsNzkuNzFMMCwwWiIgZmlsbD0iI0VDRUNGRiIgY2xhc3M9InBpZUNpcmNsZSI+PC9wYXRoPjxwYXRoIGQ9Ik0tMTY2Ljk0Nyw3OS43MUExODUsMTg1LDAsMCwxLC00Mi45NzYsLTE3OS45MzlMMCwwWiIgZmlsbD0iI2ZmZmZkZSIgY2xhc3M9InBpZUNpcmNsZSI+PC9wYXRoPjxwYXRoIGQ9Ik0tNDIuOTc2LC0xNzkuOTM5QTE4NSwxODUsMCwwLDEsMCwtMTg1TDAsMFoiIGZpbGw9ImhzbCg4MCwgMTAwJSwgNTYuMjc0NTA5ODAzOSUpIiBjbGFzcz0icGllQ2lyY2xlIj48L3BhdGg+PHRleHQgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTE3LjM1OTE5ODIyMjE5OTc1LDc0LjAxNjA4NjcxNTI3MDM5KSIgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IiBjbGFzcz0ic2xpY2UiPjY4JTwvdGV4dD48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI1LjIxMDM1ODA4OTM1NDEyLC01OS43ODIzNDQ2MTA1NTk2OSkiIHN0eWxlPSJ0ZXh0LWFuY2hvcjogbWlkZGxlOyIgY2xhc3M9InNsaWNlIj4yOCU8L3RleHQ+PHRleHQgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2LjIyNzU1MDkyMzYyNjM1MywtMTM3Ljc5Nzc4MzMzMTMwNDQpIiBzdHlsZT0idGV4dC1hbmNob3I6IG1pZGRsZTsiIGNsYXNzPSJzbGljZSI+NCU8L3RleHQ+PHRleHQgeD0iMCIgeT0iLTIwMCIgY2xhc3M9InBpZVRpdGxlVGV4dCI+RGllIG1laXN0ZW4gR2FtZXIgc3BpZWxlbiBtaXQgRnJldW5kZW48L3RleHQ+PGcgY2xhc3M9ImxlZ2VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjE2LC0zMykiPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgc3R5bGU9ImZpbGw6IHJnYigyMzYsIDIzNiwgMjU1KTsgc3Ryb2tlOiByZ2IoMjM2LCAyMzYsIDI1NSk7Ij48L3JlY3Q+PHRleHQgeD0iMjIiIHk9IjE0Ij5KYTwvdGV4dD48L2c+PGcgY2xhc3M9ImxlZ2VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjE2LC0xMSkiPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjIyKTsgc3Ryb2tlOiByZ2IoMjU1LCAyNTUsIDIyMik7Ij48L3JlY3Q+PHRleHQgeD0iMjIiIHk9IjE0Ij5OZWluPC90ZXh0PjwvZz48ZyBjbGFzcz0ibGVnZW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTYsMTEpIj48cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHN0eWxlPSJmaWxsOiByZ2IoMTgxLCAyNTUsIDMyKTsgc3Ryb2tlOiByZ2IoMTgxLCAyNTUsIDMyKTsiPjwvcmVjdD48dGV4dCB4PSIyMiIgeT0iMTQiPktlaW5lIEFudHdvcnQ8L3RleHQ+PC9nPjwvZz48L3N2Zz4=">
+
+
+
+
+</details>
+
+<details>
+<summary>Spieler werden von der Umwelt abgelenkt</summary>
+<br>
+
+<img src="data:image/svg+xml;base64,PHN2ZyBpZD0ibWVybWFpZC1kaWFncmFtLTE3Njc3MDE0NDk0NTkiIHdpZHRoPSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjQwIDQ1MCIgc3R5bGU9Im1heC13aWR0aDogMTI0MHB4OyIgcm9sZT0iZ3JhcGhpY3MtZG9jdW1lbnQgZG9jdW1lbnQiIGFyaWEtcm9sZWRlc2NyaXB0aW9uPSJwaWUiPjxzdHlsZT4jbWVybWFpZC1kaWFncmFtLTE3Njc3MDE0NDk0NTl7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lcnJvci1pY29ue2ZpbGw6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lcnJvci10ZXh0e2ZpbGw6IzU1MjIyMjtzdHJva2U6IzU1MjIyMjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lZGdlLXRoaWNrbmVzcy10aGlja3tzdHJva2Utd2lkdGg6My41cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTQ0OTQ1OSAuZWRnZS1wYXR0ZXJuLXNvbGlke3N0cm9rZS1kYXNoYXJyYXk6MDt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5lZGdlLXBhdHRlcm4tZG90dGVke3N0cm9rZS1kYXNoYXJyYXk6Mjt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5tYXJrZXJ7ZmlsbDojMzMzMzMzO3N0cm9rZTojMzMzMzMzO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDE0NDk0NTkgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IHN2Z3tmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE2cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTQ0OTQ1OSAucGllQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O29wYWNpdHk6MC43O30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDE0NDk0NTkgLnBpZU91dGVyQ2lyY2xle3N0cm9rZTpibGFjaztzdHJva2Utd2lkdGg6MnB4O2ZpbGw6bm9uZTt9I21lcm1haWQtZGlhZ3JhbS0xNzY3NzAxNDQ5NDU5IC5waWVUaXRsZVRleHR7dGV4dC1hbmNob3I6bWlkZGxlO2ZvbnQtc2l6ZToyNXB4O2ZpbGw6YmxhY2s7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO30jbWVybWFpZC1kaWFncmFtLTE3Njc3MDE0NDk0NTkgLnNsaWNle2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmaWxsOiMzMzM7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTQ0OTQ1OSAubGVnZW5kIHRleHR7ZmlsbDpibGFjaztmb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7Zm9udC1zaXplOjE3cHg7fSNtZXJtYWlkLWRpYWdyYW0tMTc2NzcwMTQ0OTQ1OSA6cm9vdHstLW1lcm1haWQtZm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO308L3N0eWxlPjxzdHlsZSBjbGFzcz0iZGFya3JlYWRlciBkYXJrcmVhZGVyLS1zeW5jIiBtZWRpYT0ic2NyZWVuIj48L3N0eWxlPjxnPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MjAsMjI1KSI+PGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjE4NiIgY2xhc3M9InBpZU91dGVyQ2lyY2xlIj48L2NpcmNsZT48cGF0aCBkPSJNMCwtMTg1QTE4NSwxODUsMCwxLDEsLTU1LjExNywxNzYuNTk5TDAsMFoiIGZpbGw9IiNFQ0VDRkYiIGNsYXNzPSJwaWVDaXJjbGUiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC1lY2VjZmYsICMxZDIwMjEpOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjwvcGF0aD48cGF0aCBkPSJNLTU1LjExNywxNzYuNTk5QTE4NSwxODUsMCwwLDEsLTM0LjI0MywtMTgxLjgwM0wwLDBaIiBmaWxsPSIjZmZmZmRlIiBjbGFzcz0icGllQ2lyY2xlIiBzdHlsZT0iLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiB2YXIoLS1kYXJrcmVhZGVyLWJhY2tncm91bmQtZmZmZmRlLCAjMzUzNTAwKTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIj48L3BhdGg+PHBhdGggZD0iTS0zNC4yNDMsLTE4MS44MDNBMTg1LDE4NSwwLDAsMSwwLC0xODVMMCwwWiIgZmlsbD0iaHNsKDgwLCAxMDAlLCA1Ni4yNzQ1MDk4MDM5JSkiIGNsYXNzPSJwaWVDaXJjbGUiIHN0eWxlPSItLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItYmFja2dyb3VuZC1iNWZmMjAsICM2ODhiMDApOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiPjwvcGF0aD48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzcuMTY1NzEzNTgwMjI0MjYsMjAuOTA3NjQyNTc0NjE1NzkyKSIgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IiBjbGFzcz0ic2xpY2UiPjU1JTwvdGV4dD48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTM4LjUxNTI1Njk2MDEzODQ2LC04LjA2NzU5NTAxMTMyODUzNSkiIHN0eWxlPSJ0ZXh0LWFuY2hvcjogbWlkZGxlOyIgY2xhc3M9InNsaWNlIj40MiU8L3RleHQ+PHRleHQgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyLjg5Njc5MzIwMzk1MzE3MSwtMTM4LjE0OTMyMjIwMjY2MDM2KSIgc3R5bGU9InRleHQtYW5jaG9yOiBtaWRkbGU7IiBjbGFzcz0ic2xpY2UiPjMlPC90ZXh0Pjx0ZXh0IHg9IjAiIHk9Ii0yMDAiIGNsYXNzPSJwaWVUaXRsZVRleHQiPlNwaWVsZXIgd2VyZGVuIHZvbiBkZXIgVW13ZWx0IGFiZ2VsZW5rdDwvdGV4dD48ZyBjbGFzcz0ibGVnZW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTYsLTMzKSI+PHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4IiBzdHlsZT0iZmlsbDogcmdiKDIzNiwgMjM2LCAyNTUpOyBzdHJva2U6IHJnYigyMzYsIDIzNiwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiB2YXIoLS1kYXJrcmVhZGVyLXRleHQtZWNlY2ZmLCAjYmZkNmZmKTsgLS1kYXJrcmVhZGVyLWlubGluZS1zdHJva2U6IHZhcigtLWRhcmtyZWFkZXItdGV4dC1lY2VjZmYsICNiZmQ2ZmYpOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtc3Ryb2tlPSIiPjwvcmVjdD48dGV4dCB4PSIyMiIgeT0iMTQiPk5laW48L3RleHQ+PC9nPjxnIGNsYXNzPSJsZWdlbmQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxNiwtMTEpIj48cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHN0eWxlPSJmaWxsOiByZ2IoMjU1LCAyNTUsIDIyMik7IHN0cm9rZTogcmdiKDI1NSwgMjU1LCAyMjIpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItdGV4dC1mZmZmZGUsICNmZmZmYjUpOyAtLWRhcmtyZWFkZXItaW5saW5lLXN0cm9rZTogdmFyKC0tZGFya3JlYWRlci10ZXh0LWZmZmZkZSwgI2ZmZmZiNSk7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1zdHJva2U9IiI+PC9yZWN0Pjx0ZXh0IHg9IjIyIiB5PSIxNCI+SmE8L3RleHQ+PC9nPjxnIGNsYXNzPSJsZWdlbmQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxNiwxMSkiPjxyZWN0IHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgc3R5bGU9ImZpbGw6IHJnYigxODEsIDI1NSwgMzIpOyBzdHJva2U6IHJnYigxODEsIDI1NSwgMzIpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6IHZhcigtLWRhcmtyZWFkZXItdGV4dC1iNWZmMjAsICNiYWZmMzApOyAtLWRhcmtyZWFkZXItaW5saW5lLXN0cm9rZTogdmFyKC0tZGFya3JlYWRlci10ZXh0LWI1ZmYyMCwgI2JhZmYzMCk7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1zdHJva2U9IiI+PC9yZWN0Pjx0ZXh0IHg9IjIyIiB5PSIxNCI+S2VpbmUgQW50d29ydDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==">
+
+
+
+</details>
+
+<hr>
+<h2>Die Umfrage:</h2>
+<p>Die Umfrage bestand aus verschiedenen Ja/Nein-Fragen, Zahlenfragen und Freitextfragen. Wir haben hier Primär die Ja/Nein-Fragen ausgewertet.</p>
+<hr>
+<h2>Die Ergebnisse:</h2>
+<p>Durch die Ergebnisse der Umfrage wurden alle unsere Hypothesen außer eine widerlegt.</p>
+<p>Die meisten Schüler antworteten auf die Fragen</p>
+<ul>
+<li>Rastest du beim Zocken öfter mal aus</li>
+<li>Hast du schon einmal beim Spielen vergessen zu trinken oder etwas zu essen?</li>
+</ul>
+<p>mit Nein. Allerdings hatten wir auch eine Hypothese richtig, und zwar dass viele Schüler oft mit Freunden spielen. Dort hatte die Mehrheit mit "Ja" geantwortet.</p>
+<hr></a>><h2>Vergleich mit anderen Studien</h2>
+<p>Unsere Studie ist klein. 139 Befragte ist wenig, um wirklich eine Aussage, über die Wirkungen von Videospielen auf das Verhalten zu machen.
+Damit unsere Studienergebnisse Aussagekräftig sind, müssen wir sie mit vielen anderen "Großen" Studien vergleichen.
+Das besondere an den Studien ist, das es unterschiedliche Ergebnisse gibt.
+Die Eine kann zum Beispiel sagen, dass Videospiele gute Wirkungen auf die mentale Gesundheit haben.
+Bei vielen Studien kann es auch Z.B sein, dass Videospiele keinen negativen, jedoch auch keinen positiven Effekt haben.
+Es gibt viele Studien, die schlechte Auswirkungen bei dem Verhalten von Kindern/Jugendlichen zeigen wenn sie Videospiele spielen.
+</p></p>
+<p>Es gibt viele Studien, die schlechte Auswirkungen bei dem Verhalten von Kindern/Jugendlichen zeigen wenn sie Videospiele spielen.</p>
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9856521/">https://pmc.ncbi.nlm.nih.gov/articles/PMC9856521/</a>
+<p>Zum Beispiel gab es eine Studie in der Universität von Almería (Spanien) bei der Fakulität Psychologie.</p>
+<p>Videospiele werden mit schlechten Auswirkungen assoziiert.</p>
+<p>Schlechte Auswirkungen sind z.B: Stress, Emotionale Veränderungen, aggressives Benehmen, Impulsivität und Hyperaktivität.</p>
+<p>Es hat auch schlechte Auswirkungen auf Soziale Interaktionen. Es wird erwähnt, dass Kinder/Jugendliche die eine Videospielsucht haben Probleme wie Einsamkeit und Niedriges Selbstwertgefühl haben.</p>
+<p>Außerdem wird geschrieben, dass Kinder/Jugendliche mit einer Computerspielsucht über physiche Gesundheitsprobleme, die Deregulierung vom Dopaminbelohnungssystem, Augenprobleme und Konzentrationsprobleme verfügen.</p>
+<p>Doch dies sind nur die Vermutungen. Die Ergebnisse zeigen dass:</p>
+<ul>
+<li>Männer eine stärkere Sucht als Frauen haben</li>
+<li>Internetsucht mit Unaufmerksamkeit zusammenhängt</li>
+<li>Das "Hardcore"-Spieler aggressiver waren</li>
+<li>Videospiele mit Schlafproblemen zusammenhängen</li>
+<li>Es einen starken Zusammenhang zwischen Spielzeit und Schlafzeit gibt</li>
+<li>Die Spielzeit in umgekehrter Korrelation mit der Schlafenszeit stand</li>
+<li>Jugendliche die mehr gespielt haben gewalttätiger und weniger über andere Mitmenschen besorgt sind</li>
+<li>Schlechtes Benehmen in der Schule stark mit dem Spielen von Videospielen und dem Besitz eines Fernsehers zusammenhängt</li>
+<li>Schüler die Videospiele spielen akademisch schlechter sind (z.B.schlechtere Noten)</li>
+<li>Jungs Videospiele interessanter finden als Mädchen</li>
+<li>Spieler weniger Aufmerksamkeit haben</li>
+<li>Kinder mit Aufmerksamkeitsdefizit- / Hyperaktivitätsstörung eine stärkere Videospielsucht und Spieldauer haben</li>
+<li>Das Spielen von gewalttätigen Videospielen ein Konkurrenzbenehmen fördert.</li>
+<li>Es eine starke Korrelation von Spielen und einem niedrigerem Mitleidsgefühl gibt.</li>
+</ul>
+
+<br> <p>Eine der Hypothesen in der Studie war es, dass emotionale Intelligenz von Videospielen unterdrückt wird.</p>
+
+
+<p>Die Ergebnisse bestätigen dies.</p>
+<br>
+<p>Was hier zu beachten ist, dass bei den Ergebnissen Spieler aggressiver waren als Nichtspieler.
+
+Bei unserer Studie war das Ergebnis, dass Spieler nicht aggressiver wurden, wobei aber unser
+
+Ergebnis nur für normale Gamer zählt, nicht "hardcore"-Gamer und außerdem waren bei der Großen Studie Hardcoregamer
+
+aggressiver als Nichtgamer und bei unserer Hypothese stand es das Kinder und Jugendliche durch Videospiele aggressiver wurden.
+
+Wir beschäftigten uns mit der Wirkung also wie Videospiele das Verhalten von Kindern und Jugendlichen veränderte.
+
+Dort stand es aber im Ergebnis das Gamer aggressiver sind als Nichtgamer.
+
+Dies ist nicht das Gleiche.
+</p>
+<p>Es gibt aber auch Studien, die eher positive Auswirkungen bei Videospielen zeigen.</p>
+<a href="https://www.nature.com/articles/s41562-024-01948-y">https://www.nature.com/articles/s41562-024-01948-y</a>
+<p>Es gab eine japanische Studie die eher positives über Videospiele sagte.</p>
+<p>Die Forscher argumentieren dass andere Studien auf Korrelation durchgeführt wurden und nicht Kausal wären.</p>
+<p>Sie haben eine Lotterie zum Verkauf von Spielkonsolen zur Zeit der Coronapandemie durchgeführt.</p>
+<p>Dadurch konnten sie die Auswirkungen von Videospielen in einer Quasi randomisierten Studie durchführen.</p>
+<p>Es wurde auch erwähnt, dass die meisten Studien im Labor oder in einer epidemiologischen Untersuchung durchgeführt wurde.</p>
+<p>Dadurch ist es schwer die Ursache und Wirkung zu trennen.</p>
+<p>Die Ergebnisse zeigen dass der Besitz einer Spielekonsole den mentalen Stress verniedrigt und die Lebensqualität verbessert.</p>
+<br>
+<p>Bei der spanischen Studie wurde geschrieben dass Männer eine stärkere Sucht als Frauen haben.</p>
+<br><p>Doch eine neue Studie/Umfrage vom 12. August 2025 in Deutschland zeigte, dass Frauen in Deutschland 20 Minuten länger spielen als Männer am Tag.</p>
+
+<br><a href="https://tempsite1.zvdxc.is-a.dev/static/studien.pdf">Studienübersicht</a>
+<p>Die Markdown-Version der Seite ist </p><a href="https://zvdxc.github.io/infoseitepages2/blog/webseite/">hier</a>
+</div>
+    </body>
+</html>
